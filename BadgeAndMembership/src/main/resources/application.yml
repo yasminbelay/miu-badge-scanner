@@ -1,0 +1,32 @@
+server:
+  port: 8080
+jwt:
+  secret : 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+spring:
+  datasource:
+#    url: jdbc:sqlserver://cs544.cs.miu.edu;databaseName=CS544-202303-04;encrypt=true;trustServerCertificate=true;
+#    username: CS544-202303-04
+#    password: e0e657e8-f50e-4997-8dfc-813e8f0d46f1
+#    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:hsqldb:hsql://localhost:9003/trainingdb
+    username: SA
+    password:
+    driver-class-name: org.hsqldb.jdbcDriver
+  jpa:
+    hibernate:
+      ddl-auto: create
+      show-sql: true
+    defer-datasource-initialization: true
+    database-platform: org.hibernate.dialect.HSQLDialect
+#    database-platform: org.hibernate.dialect.SQLServer2012Dialect
+  sql:
+    init:
+      mode: always
+logging:
+  level:
+    root: ERROR
+    org:
+      springframework: ERROR
+    BadgeAndMembershipLogger: INFO
+  file:
+    name: logs/applicationLog.log

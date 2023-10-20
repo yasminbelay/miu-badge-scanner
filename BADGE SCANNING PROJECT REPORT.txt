@@ -1,0 +1,28 @@
+BADGE SCANNING PROJECT REPORT
+
+  This project that might be helpful to Maharish international universty. it was about badge scanning that will be used by staff,faculty and student in all location like Recreational center, argiro,meditation in Maharishi international university.
+
+ Methodology :- First all group member met and discuss about the system. and each group member generates Class Diagram. As what we learned in MODERN PROGRAMMING PRACTICE (MPP) SRS all the nouns and verbs separate and also entity, and finalize the entity classes with an attributes.
+and we start implementing, staring (POJO) associations,and multiplicity, generating Primary keys ANNOTATIONS and using layers WEB SERVICE DOMAIN INTEGRATION DATA ACCESS AND SECURITY. and i didn't took a data base course but i learned how the data base worked. and for the testing we used postman and also learned how postman work.
+
+i have learned lots of things from this project thanks to all  my group memebers we worked together. 
+
+I first one of my group member showed me everything and i took my part and did my work with the help of my group memebr first it was a bit difficult to understand but later i can understand them and the flow. i still have to see the security (JWT) part and will discuss with my teams.
+ AT last i learned how to represent a project. it is helpful in my future. 
+
+Thank You 
+
+Yasmin Belay
+
+Student ID 615190
+
+ 
+ 
+
+
+
+
+
+
+
+
